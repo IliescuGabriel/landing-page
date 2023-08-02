@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+nav.header{
+    background-color: #1f2937;
+    height: 100px;
+}
+.navigation{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    height: 100px;
+    gap: 25px;
+    justify-content: start;
+    align-items: center;
+}
+.navigation a{
+    color: #f9faf8;
+    text-decoration: none;
+}
+.logo{
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.home{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.about{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.contact{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.main{
+    background-color: #1f2937;
+    padding-top: 75px;
+    padding-bottom: 90px;
+}
+.container2{
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+.picture{
+    height: 250px;
+    width: auto;
+}
+div h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 300px;
+}
+div p{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+    line-height: 1.3em;
+}
+div img{
+    margin-left: 75px;
+}
+div button{
+    background-color: #3882f6;
+    height: 35px;
+    width: 135px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info img{
+    width: 150px;
+    height: 150px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+
+.seasons{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.seasons p{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+}
+.container4{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.container4 p{
+    color: #1f2937;
+    font-size: 18px;
+    width: 200px;
+    padding-left: 30px;
+}
+.container5{
+    background-color: #e5e7eb;
+}
+.quote{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    padding-top: 100px;  
+}
+.quote p{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    justify-content: center;
+    flex: 1;
+}
+.author{
+    width: 75%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.author p{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-left: 800px;
+}
+.container6 .signup{
+
+    width: 75%;
+    display: flex;
+    background-color: #3882f6;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 100px;
+}
+.btn{
+    border-color: white;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.text h2{
+    color: white;
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+}
+.footer p{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
